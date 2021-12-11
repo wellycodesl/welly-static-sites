@@ -15,7 +15,7 @@ Para que Welly Static Sites funcione correctamente necesitas tener instaldo en t
 Clonar el repositorio en tu entorno local 
 
 ```javascript
-git clone 
+git clone https://github.com/wellycodesl/welly-static-sites.git
 ```
 
 ## Usage
