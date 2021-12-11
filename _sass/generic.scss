@@ -1,0 +1,43 @@
+$wellyFontBase: 16;
+$wellyRhythmBase: 4;
+
+:root {
+	--w-font-size-base: #{$wellyFontBase}px;
+	--w-rhythm-base: #{$wellyRhythmBase}px;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	@include pxToRem("font-size", 18, $wellyFontBase);
+	font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+		Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: calc(var(--w-font-size-base) * 4);
+}
+h2 {
+	font-size: calc(var(--w-font-size-base) * 3);
+}
+h3 {
+	font-size: calc(var(--w-font-size-base) * 2);
+}
+h4 {
+	font-size: calc(var(--w-font-size-base) * 1.5);
+}
+h5 {
+	font-size: var(--w-font-size-base);
+}
+h6 {
+	font-size: calc(var(--w-font-size-base) * 0.8);
+}
+
+p {
+	margin-bottom: calc(var(--w-rhythm-base) * 2);
+	word-break: break-word;
+}
