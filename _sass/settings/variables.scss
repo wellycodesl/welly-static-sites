@@ -1,0 +1,16 @@
+/* SCSS */
+$wellyFontBase: 16;
+$wellyRhythmBase: 4;
+$wellyH1Factor:4;
+$wellyH2Factor:3;
+$wellyH3Factor:2;
+$wellyH4Factor:1.5;
+$wellyH5Factor:1;
+$wellyH6Factor:0.8;
+
+/* Custom properties */
+
+:root {
+	--w-font-size-base: #{$wellyFontBase}px;
+	--w-rhythm-base: #{$wellyRhythmBase}px;
+}

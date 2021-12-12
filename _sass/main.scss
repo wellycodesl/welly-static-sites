@@ -1,8 +1,9 @@
-// Mixings
+// Import config files
 
+@import 'settings/index';
 @import 'mixins/mixinPixelToRem';
-@import 'generic/reset';
-@import 'generic/default';
+@import 'generic/index';
 @import 'element/index';
+@import 'utils/index'
 
 // Do Something

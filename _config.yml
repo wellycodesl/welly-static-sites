@@ -41,6 +41,9 @@ defaultimage: /default.jpg
 exclude:
   - .jekyll-cache/
   - package.json
+  - readme.md
+  - .gitignore
+  - .editorconfig
 
 
 # keep_files:
