@@ -39,6 +39,7 @@ defaultimage: /default.jpg
 
 
 exclude:
+  - .git 
   - .jekyll-cache/
   - package.json
   - readme.md
