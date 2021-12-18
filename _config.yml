@@ -23,6 +23,7 @@ title: Site generate for Welly Code SL
 description:  Generador de sitios estáticos para desarrollar proyectos de una forma ágil y rápida
 livereload: true
 defaultimage: /default.jpg
+lang: es-ES
 
 
 # Build settings
@@ -60,7 +61,11 @@ sass:
 
 plugins:
   - jekyll-coffeescript
-  - jekyll-sass-converter
+  - jekyll-sass-converter  
+  - jekyll-inline-svg
+
+svg:
+  optimize: true
 
 collections:
   pages:

@@ -1,7 +1,8 @@
 body {
 	@include pxToRem("font-size", 18, $wellyFontBase);
-	font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
-		Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+	font-family: $wellyFontFamily;
+	font-weight: 400;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	background-color: $color__purple_alpha;
 }
