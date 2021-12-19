@@ -4,6 +4,4 @@ _site
 .jekyll-metadata
 vendor
 node_modules
-package-lock.json
-/assets/scripts/main.min.js
-/assets/svg/sprite.symbol.html
+.DS_Store
