@@ -33,6 +33,16 @@ $color__grey2:  #F9F5F9;
 $shadow__box:  0px 4px 4px rgba(0, 0, 0, 0.25);
 $shadow__button: 0px 1.82648px 1.82648px rgba(0, 0, 0, 0.25);
 
+
+$mediaQueries: (
+  mobile: (min-width: 320px),
+  tablet: (min-width: 768px),
+  desktop: (min-width: 1024px),
+  tv: (min-width: 1280px),
+  wide: (min-width: 1440px)
+);
+
+
 /* Custom properties */
 
 :root {

@@ -19,6 +19,7 @@
       "homepage": "https://github.com/wellycodesl/welly-static-sites#readme",
     "scripts": {
         "dev": "jekyll serve",
-        "build": "jekyll build"    
+        "build": "jekyll build",
+        "publish": "jekyll build && surge _site"
     }
 }
